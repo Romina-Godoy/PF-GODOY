@@ -1,0 +1,356 @@
+
+/*index header*/
+
+h2 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 400%;
+    text-align: right;
+    color: #dc143c;
+}
+
+header h1 {
+    font-family: 'Sigmar', cursive;
+    font-size: 5rem;
+    text-align: right;
+    color:#dc143c;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+header h2 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 3rem;
+    text-align: right;
+    color:#dc143c;
+    margin-top: 2rem;
+}
+
+.container1 {
+    border-radius: 3%;
+    background-color: #f8e8f5;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+    "encabezado encabezado imagen"
+    "encabezado encabezado imagen"
+    "encabezado encabezado imagen"
+}
+.imagen {
+    grid-area: imagen;
+}
+.encabezado {
+    grid-area: encabezado;
+}
+.subtitulo {
+    grid-area: encabezado2;
+}
+nav {
+    margin-left: 1%;
+    margin-right: 1%;
+    background-color: #dd4d6a;
+}
+
+/* index presentación */
+
+.container2 {
+    border-radius: 3%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    background-color: #f8e8f5;
+    margin-top: 1%;
+    text-align: center;
+}
+
+.peluquera {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    margin: 5%;
+    
+}    
+
+.presentación {
+    grid-column: 2/3;
+    grid-row: 2/4;
+    font-family: 'Righteous', cursive;
+    font-size: 1.5rem;
+    color: #dc143c;
+    margin: 5%;
+    border-bottom: 3px solid #dc143c;
+    border-top: 3px solid #dc143c;
+}
+.container2 img {
+    width: 35rem;
+    height: 30rem;
+    border-radius: 5%;
+    
+}
+
+/*servicios*/
+
+#descripción-servicios {
+    border-top: 0.2rem solid black;
+    border-bottom: 0.2rem solid black;
+    font-family: 'Sue Ellen Francisco', cursive;
+    font-size: 40px;
+    text-align: left;
+    color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.2fr 1fr 1fr 1fr;
+    background-image: url(Images/Fondo4.jpg);
+    background-color: #e7e3e9;
+    border-radius: 1rem;
+    margin: 1rem 1rem;
+}
+.servicios {
+    grid-column: 1/3;
+    grid-row: 1/2;
+   
+}
+#title {
+    text-align: center;
+}
+
+.serviciosh3 {
+    font-family: 'Sue Ellen Francisco', cursive;
+    font-size: 5rem;
+    text-align: left;
+    color: black;
+    
+}
+.servicio1 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin-top: 6rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 6rem;
+    background-color: #f8e8f5;
+    border-radius: 80%;
+    text-align: center;
+    border: 2px dotted black;
+}
+.imgserv1 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-left: 4rem;
+    margin-top: 2rem;
+  
+}
+.servicio2 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    background-color: #f8e8f5;
+    border-radius: 80%;
+    text-align: center;
+    border: 2px dotted black;
+
+}
+.imgserv2 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    margin-left: 4rem;
+    margin-top: 3rem;
+   
+}
+.servicio3 {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    margin-top: 6rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 6rem;
+    background-color: #f8e8f5;
+    border-radius: 80%;
+    text-align: center;
+    border: 2px dotted black;
+
+}
+.imgserv3 {
+    grid-column: 2/3;
+    grid-row: 4/5;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    margin-left: 4rem;
+}
+
+/*tarifas*/
+
+
+#descripción-tarifas {
+    font-family: 'Sue Ellen Francisco', cursive;
+    font-size: 2rem;
+    text-align: left;
+    color: black;
+    text-align: center;
+}
+
+#tarifa-container {
+    display: grid;
+    grid-template-columns: 35rem 35rem;
+    grid-template-rows: 10rem 22rem 22rem 38rem;
+    background-image: url(Images/Fondo4.jpg);
+    background-color: #e7e3e9;
+    border-radius: 1rem;
+    margin: 1rem 1rem;
+    border-top: 0.2rem solid black;
+    border-bottom: 0.2rem solid black;
+}
+
+#tarifash3 {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    font-family: 'Sue Ellen Francisco', cursive;
+    font-size: 5rem;
+    text-align: left;
+    color: black;
+}
+
+#tarifa1 {
+    grid-column: 1/2;
+    grid-row: 2/4;
+    margin-left: 2rem;
+    border: 3px solid black;
+}
+#tarifa2 {
+    grid-column: 2/3;
+    grid-row: 2/4;
+    margin-left: 2rem;
+    border: 3px solid black;
+}
+#tarifa3 {
+    grid-column: 1/3;
+    grid-row: 4/5;
+    margin-left: 12rem;
+    margin-top: 3rem;
+    
+}
+#nota {
+    font-family: 'Sue Ellen Francisco', cursive;
+    font-size: 40px;
+    
+}
+#imgtarifa3 {
+    border: 3px solid black;
+}
+
+
+/* mis trabajos */
+
+#trabajosh3 {
+    font-family: 'Sue Ellen Francisco', cursive;
+    font-size: 5rem;
+    text-align: left;
+    color: black;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    grid-template-rows: repeat(6, 1fr);
+
+}
+.grid-container img {
+    width: 100%;
+    height: 100%;
+    border: 3px solid rgb(236, 94, 94);
+}
+.item1 {
+    grid-row: 1/3;
+    grid-column: 1/3;
+}
+.item6 {
+    grid-row: 4/6;
+    grid-column: 2/4;
+}
+.item10 {
+    grid-row: 6/8;
+    grid-column: 1/3;
+}
+
+/*contactos*/
+
+#contactos {
+    font-family: 'Indie Flower', cursive;
+    font-size: 45px;
+    text-align: left;
+    color: #dc143c;
+}
+
+
+/*footer*/
+
+footer {
+    border-top: 0.2rem solid black;
+    border-bottom: 0.2rem solid black;
+    margin-bottom: 4%;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    border-radius: 3%;
+    background-size: 40rem 32rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #f8e8f5;
+    display: grid;
+    grid-template-columns: 25rem 25rem 25rem;
+    grid-template-rows: 11rem 11rem 11rem;
+    grid-template-areas: 
+    "ubi ubi redes"
+    "mapa mapa redes"
+    "mapa mapa redes"
+    ;
+}
+
+footer a {
+    color: #dc143c;
+    font-family: 'Righteous', cursive;
+}
+.ubi {
+    font-family: 'Righteous', cursive;
+    font-size: 200%;
+    grid-area: ubi;
+    color: #dc143c;
+    display: flex;
+    justify-content: left;
+    text-align: center;
+    margin-left: 20%;
+    margin-top: 10%;
+
+}
+.mapa {
+    grid-area: mapa;
+    margin-left: 6rem;
+    margin-bottom: 5rem;
+}
+.redes {
+    grid-area: redes;
+    margin-top: 50%;
+    margin-left: 30%;
+}
+
+.instagram {
+    width: 20%;
+    height: 20%;
+}
+.facebook {
+    width: 20%;
+    height: 20%;
+}
+.whatsaap {
+    width: 20%;
+    height: 20%;
+}
