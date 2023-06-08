@@ -78,7 +78,7 @@ header h2 {
     flex-direction: column;
 }
 .container2 img {
-    width: 20rem;
+    width: 30rem;
     height: 30rem;
     border-radius: 5%;
     margin-top: 1%;
@@ -347,9 +347,9 @@ footer iframe {
     grid-column: 2/3;
     grid-row: 2/3;
     margin-top: 20%;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
     margin-left: 0%;
-   
+
 
 }
 
