@@ -3,12 +3,19 @@
     margin: 0%;
     padding: 0%;
 }
+
+
+
 body {
     margin: 0;
     background-color: #eed8dc;
  
 }
-
+@media handheld, only screen and (max-width: 500px) {
+    .peluquera {
+        display: none !important;
+    }
+}
 
 /*index header*/
 nav{
@@ -388,4 +395,5 @@ footer a {
     grid-row: 1/2;
 
 }
+
 
