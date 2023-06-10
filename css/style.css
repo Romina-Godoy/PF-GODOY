@@ -180,12 +180,17 @@ nav a:hover {
 
 #nota {
     font-family: 'Sue Ellen Francisco', cursive;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     text-align: center;
     
 }
 #imgtarifa3 {
     border: 3px solid black;
+}
+
+.cartas {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
 }
 
 
@@ -233,6 +238,8 @@ nav a:hover {
     font-size: 45px;
     text-align: left;
     color: #dc143c;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 #contactosh3 {
@@ -245,7 +252,8 @@ nav a:hover {
 }
 body iframe {
     border-radius: 5rem;
-    margin: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
     border: 1px solid black !important;
 }
 
