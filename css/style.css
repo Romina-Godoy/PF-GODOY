@@ -114,21 +114,30 @@ nav a:hover {
     height: 15rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    margin-left: 2rem;
     background-color: #f8e8f5;
     border-radius: 80%;
     text-align: center;
     border: 2px dotted black;
 }
+.imgserv1 {
+    margin-left: 2.5rem;
+}
+
 
 .servicio2 {
     width: 20rem;
     height: 15rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    margin-left: 2rem;
     background-color: #f8e8f5;
     border-radius: 80%;
     text-align: center;
     border: 2px dotted black;
+}
+.imgserv2 {
+    margin-left: 2.5rem;
 }
 
 .servicio3 {
@@ -136,11 +145,15 @@ nav a:hover {
     height: 15rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    margin-left: 2rem;
     background-color: #f8e8f5;
     border-radius: 80%;
     text-align: center;
     border: 2px dotted black;
 
+}
+.imgserv3 {
+    margin-left: 2.5rem;
 }
 
 
@@ -156,6 +169,7 @@ nav a:hover {
 }
 
 
+
 #tarifash3 {
     font-family: 'Sue Ellen Francisco', cursive;
     font-size: 2rem;
@@ -163,9 +177,6 @@ nav a:hover {
     color: black;
     margin-top: 3rem;
 }
-
-
-
 
 #nota {
     font-family: 'Sue Ellen Francisco', cursive;
