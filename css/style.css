@@ -35,8 +35,49 @@ body {
         margin-right: 3rem;
         margin-left: 3rem;
     }
+    footer iframe {
+        width: 600px;
+        margin-top: 100px !important;
+       }
+    .ubi {
+        margin-top: 180px !important;
+        font-size: 40px;
+    }   
+    footer {
+        background-repeat: no-repeat !important;
+        height: 40rem !important;
+    }
+
+    footer ul li {
+        list-style-image: url(../Images/huella-de-perro.png);
+        list-style-position: square inside;
+        
+    }
+    footer ul li a {
+        font-size: 25px;
+    }
+    #descripción-servicios {
+        text-align: center;
+        
+    }
+    #descripción-servicios img {
+        width: 500px !important;
+        height: 450px;
+    }
+    #imgtarifa3 {
+        width: 50rem !important;
+        margin-left: 5rem !important;
+    }
+    #nota {
+        font-size: 3rem !important;
+    }
+    .cartas {
+        margin-left: 15rem !important;
+       
+    }
 
 }
+
 @media handheld, only screen and (max-width: 500px) {
     .peluquera {
         display: none !important;
@@ -106,7 +147,7 @@ nav a:hover {
     font-family: 'Righteous', cursive;
     font-size: 1.5rem;
     color: #dc143c;
-    margin: 3%;
+    margin: 1%;
     border-bottom: 3px solid #dc143c;
     border-top: 3px solid #dc143c;
     display: flex;
@@ -114,16 +155,10 @@ nav a:hover {
     text-align: center;
     flex-direction: column;
 }
-.container2 img {
-    width: 20rem;
-    border-radius: 5%;
-    margin-top: 1%;
-    margin-bottom: 5%;
+
+.peluquera {
     display: flex;
-    align-items: center;
-    text-align: center;
-    flex-direction: column;
-    height: 50vh;
+    justify-content: center;
 }
 
 /*servicios*/
