@@ -1,0 +1,22 @@
+
+body {
+    #contactosh3 {
+        @include titles;
+        text-align: center;
+        
+    }
+    #contactos {
+        img {
+            margin: 1%;
+        }
+    }
+    iframe {
+        border-radius: 5rem;
+        margin-top: 3rem;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        border: 1px solid black !important;
+
+    }
+
+}

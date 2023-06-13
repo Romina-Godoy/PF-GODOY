@@ -1,0 +1,45 @@
+header {
+    nav {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 20px 20px;
+        a {
+            text-decoration: none;
+            color: $color-principal;
+            font-weight: bold;
+            font-family: $fuente-1;
+        }
+        }
+        nav a:hover {
+            color: #ca5e74
+        }
+    .encabezado {
+        background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.1),
+        rgba(0,0,0,0.1)
+    )
+    ,url(../Images/foto-portada.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid #dfacb6;
+    display: flex;
+    align-items: start;
+    text-align: center;
+    flex-direction: column;
+    height: 50vh;
+    h1 {
+        font-family: 'Sigmar', cursive;
+        font-size: 2.5rem;
+        text-align: right;
+        color:#dc143c;
+     }
+     h2 {
+        font-family: $fuente-1;
+        font-size: 2rem;
+        text-align: center;
+        color:#dc143c;
+    }
+    }
+    }

@@ -1,405 +1,310 @@
-*{
-    box-sizing: border-box;
-    margin: 0%;
-    padding: 0%;
-}
-
-
-
-body {
-    margin: 0;
-    background-color: #eed8dc;
- 
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sue+Ellen+Francisco&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
 }
 
 @media only screen and (min-width: 768px) {
-    .encabezado {
-       padding-bottom: 55%;
-    }
-    .encabezado h1 {
-        font-size: 5rem !important;
-        margin-top: 1rem;
-    }
-    .encabezado h2 {
-        font-size: 4.5rem !important;
-        margin-top: 1rem;
-    }
-    .navegador {
-        font-size: 2rem !important;
-        text-align: right;
-    }
-    #navboots {
-        font-size: 2rem !important;
-    }
-    #navboots ul li {
-        margin-right: 3rem;
-        margin-left: 3rem;
-    }
-    footer iframe {
-        width: 600px;
-        margin-top: 100px !important;
-       }
-    .ubi {
-        margin-top: 180px !important;
-        font-size: 40px;
-    }   
-    footer {
-        background-repeat: no-repeat !important;
-        height: 40rem !important;
-    }
-
-    footer ul li {
-        list-style-image: url(../Images/huella-de-perro.png);
-        list-style-position: square inside;
-        
-    }
-    footer ul li a {
-        font-size: 25px;
-    }
-    #descripción-servicios {
-        text-align: center;
-        
-    }
-    #descripción-servicios img {
-        width: 500px !important;
-        height: 450px;
-    }
-    #imgtarifa3 {
-        width: 50rem !important;
-        margin-left: 5rem !important;
-    }
-    #nota {
-        font-size: 3rem !important;
-    }
-    .cartas {
-        margin-left: 15rem !important;
-       
-    }
-
-}
-
-@media handheld, only screen and (max-width: 500px) {
-    .peluquera {
-        display: none !important;
-    }
-}
-
-
-
-
-/*index header*/
-
-nav{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin: 20px 20px;
-   
-}
-nav a {
-    text-decoration: none;
-    color: #dc143c;
-    font-weight: bold;
-    font-family: 'Indie Flower', cursive;
-}
-
-nav a:hover {
-    color: #ca5e74;
-}
-
-.encabezado {
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.1),
-        rgba(0,0,0,0.1)
-    )
-    ,url(../Images/foto-portada.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    border: 1px solid #dfacb6;
-    display: flex;
-    align-items: start;
-    text-align: center;
-    flex-direction: column;
-    height: 50vh;
-}
-
-
-
-.encabezado h1 {
-    font-family: 'Sigmar', cursive;
-    font-size: 2.5rem;
+  .encabezado {
+    padding-bottom: 55%;
+  }
+  .encabezado h1 {
+    font-size: 5rem !important;
+    margin-top: 1rem;
+  }
+  .encabezado h2 {
+    font-size: 4.5rem !important;
+    margin-top: 1rem;
+  }
+  .navegador {
+    font-size: 2rem !important;
     text-align: right;
-    color:#dc143c;
-
-
-
-}
-.encabezado h2 {
-    font-family: 'Indie Flower', cursive;
-    font-size: 2rem;
+  }
+  #navboots {
+    font-size: 2rem !important;
+  }
+  #navboots ul li {
+    margin-right: 3rem;
+    margin-left: 3rem;
+  }
+  footer iframe {
+    width: 600px;
+    margin-top: 100px !important;
+  }
+  .ubi {
+    margin-top: 180px !important;
+    font-size: 40px;
+  }
+  footer {
+    background-repeat: no-repeat !important;
+    height: 40rem !important;
+  }
+  footer ul li {
+    list-style-image: url(../Images/huella-de-perro.png);
+    list-style-position: square inside;
+  }
+  footer ul li a {
+    font-size: 25px;
+  }
+  #descripción-servicios {
     text-align: center;
-    color:#dc143c;
+  }
+  #descripción-servicios img {
+    width: 500px !important;
+    height: 450px;
+  }
+  #imgtarifa3 {
+    width: 50rem !important;
+    margin-left: 5rem !important;
+  }
+  #nota {
+    font-size: 3rem !important;
+  }
+  .cartas {
+    margin-left: 15rem !important;
+  }
+}
+@media handheld, only screen and (max-width: 500px) {
+  .peluquera {
+    display: none !important;
+  }
+  #descripción-servicios div p {
+    font-size: 1rem;
+  }
+  #contactos img {
+    width: 20rem !important;
+    margin-left: 1.5rem !important;
+  }
+}
+body {
+  margin: 0;
+  background-color: #eed8dc;
 }
 
-/* index presentación */
-.presentación {
-    font-family: 'Righteous', cursive;
-    font-size: 1.5rem;
-    color: #dc143c;
-    margin: 1%;
-    border-bottom: 3px solid #dc143c;
-    border-top: 3px solid #dc143c;
-    display: flex;
-    align-items: start;
-    text-align: center;
-    flex-direction: column;
+header nav {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 20px 20px;
+}
+header nav a {
+  text-decoration: none;
+  color: #dc143c;
+  font-weight: bold;
+  font-family: "Indie Flower", cursive;
+}
+header nav a:hover {
+  color: #ca5e74;
+}
+header .encabezado {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../Images/foto-portada.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 1px solid #dfacb6;
+  display: flex;
+  align-items: start;
+  text-align: center;
+  flex-direction: column;
+  height: 50vh;
+}
+header .encabezado h1 {
+  font-family: "Sigmar", cursive;
+  font-size: 2.5rem;
+  text-align: right;
+  color: #dc143c;
+}
+header .encabezado h2 {
+  font-family: "Indie Flower", cursive;
+  font-size: 2rem;
+  text-align: center;
+  color: #dc143c;
 }
 
-.peluquera {
-    display: flex;
-    justify-content: center;
+section .presentación {
+  font-family: "Righteous", cursive;
+  font-size: 1.5rem;
+  color: #dc143c;
+  margin: 1%;
+  border-bottom: 3px solid #dc143c;
+  border-top: 3px solid #dc143c;
+  display: flex;
+  align-items: start;
+  text-align: center;
+  flex-direction: column;
+}
+section .peluquera {
+  display: flex;
+  justify-content: center;
 }
 
-/*servicios*/
-
-.servicios {
-    font-family: 'Sue Ellen Francisco', cursive;
-    font-size: 2rem;
-    color: black;
-    text-align: center;
-    margin-top: 3rem;
+footer {
+  border-top: 0.2rem solid black;
+  border-bottom: 0.2rem solid black;
+  margin-bottom: 1%;
+  margin-top: 1%;
+  margin-left: 2%;
+  margin-right: 2%;
+  border-radius: 3%;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../Images/fondofooter.png);
+  background-repeat: repeat;
+  background-size: 100%;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+}
+footer h3 {
+  font-family: "Righteous", cursive;
+  font-size: auto;
+  color: #dc143c;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 80%;
+  margin-left: 20%;
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+footer iframe {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  margin-top: 20%;
+  margin-bottom: 1%;
+  margin-left: 0%;
+  border-radius: 5%;
+}
+footer ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: right;
+  margin-left: 20%;
+  margin-top: 20%;
+  margin-bottom: 5%;
+  list-style-type: none;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+footer ul li {
+  margin-top: 1%;
+  margin-bottom: 5%;
+}
+footer ul li a {
+  font-family: "Righteous", cursive;
+  font-weight: bold;
+  text-decoration: none;
+  color: #dc143c;
 }
 
-
-.servicio1 {
-    width: 20rem;
-    height: 15rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    margin-left: 2rem;
-    background-color: #f8e8f5;
-    border-radius: 80%;
-    text-align: center;
-    border: 2px dotted black;
+.cartas #tarifa1 {
+  float: left;
+  margin: 1%;
+  border: 3px solid black;
 }
-.imgserv1 {
-    margin-left: 2.5rem;
+.cartas #tarifa2 {
+  float: right;
+  margin-right: 0.5rem;
+  border: 3px solid black;
+  margin-top: 0.5rem;
 }
-
-
-.servicio2 {
-    width: 20rem;
-    height: 15rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    margin-left: 2rem;
-    background-color: #f8e8f5;
-    border-radius: 80%;
-    text-align: center;
-    border: 2px dotted black;
+.cartas #descripción-tarifas {
+  font-size: "Sue Ellen Francisco", cursive;
+  font-size: 2rem;
+  color: black;
+  text-align: center;
 }
-.imgserv2 {
-    margin-left: 2.5rem;
-}
-
-.servicio3 {
-    width: 20rem;
-    height: 15rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    margin-left: 2rem;
-    background-color: #f8e8f5;
-    border-radius: 80%;
-    text-align: center;
-    border: 2px dotted black;
-
-}
-.imgserv3 {
-    margin-left: 2.5rem;
-}
-
-
-/*tarifas*/
-
-
-#descripción-tarifas {
-    font-family: 'Sue Ellen Francisco', cursive;
-    font-size: 2rem;
-    text-align: left;
-    color: black;
-    text-align: center;
-}
-
-
 
 #tarifash3 {
-    font-family: 'Sue Ellen Francisco', cursive;
-    font-size: 2rem;
-    text-align: center;
-    color: black;
-    margin-top: 3rem;
+  font-family: "Sue Ellen Francisco", cursive;
+  font-size: 3rem;
+  color: #dc143c;
+  margin-top: 3rem;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 2rem;
 }
 
-#nota {
-    font-family: 'Sue Ellen Francisco', cursive;
-    font-size: 1.3rem;
-    text-align: center;
-    
+#tarifa3 img {
+  margin-left: 0% !important;
+  margin-top: 1rem !important;
+  border: 3px solid black;
 }
-#imgtarifa3 {
-    border: 3px solid black;
-}
-
-.cartas {
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
+#tarifa3 p {
+  font-family: "Sue Ellen Francisco", cursive;
+  font-size: 1.2rem;
+  text-align: center;
 }
 
-
-/* mis trabajos */
+#descripción-servicios .servicios {
+  font-family: "Sue Ellen Francisco", cursive;
+  font-size: 3rem;
+  color: #dc143c;
+  margin-top: 3rem;
+  font-weight: bold;
+  text-align: center;
+}
+#descripción-servicios p {
+  font-family: "Righteous", cursive;
+  font-size: 2rem;
+  text-align: center;
+}
+#descripción-servicios img {
+  margin-left: 2rem;
+}
 
 #trabajosh3 {
-    font-family: 'Sue Ellen Francisco', cursive;
-    font-size: 3rem;
-    text-align: center;
-    color: black;
-    margin-top: 2rem;
+  font-family: "Sue Ellen Francisco", cursive;
+  font-size: 3rem;
+  color: #dc143c;
+  margin-top: 3rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
 .grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr) ;
-    grid-template-rows: repeat(6, 1fr);
-
+  margin: 0.2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(6, 1fr);
 }
 .grid-container img {
-
-    width: 100%;
-    height: 100%;
-    border: 3px solid rgb(15, 11, 5);
+  width: 100%;
+  height: 100%;
+  border: 3px solid rgb(15, 11, 5);
+}
+.grid-container .item1 {
+  grid-row: 1/3;
+  grid-column: 1/3;
+}
+.grid-container .item6 {
+  grid-row: 4/6;
+  grid-column: 2/4;
+}
+.grid-container .item10 {
+  grid-row: 6/8;
+  grid-column: 1/3;
 }
 
-.item1 {
-    grid-row: 1/3;
-    grid-column: 1/3;
+body #contactosh3 {
+  font-family: "Sue Ellen Francisco", cursive;
+  font-size: 3rem;
+  color: #dc143c;
+  margin-top: 3rem;
+  font-weight: bold;
+  text-align: center;
 }
-
-.item6 {
-    grid-row: 4/6;
-    grid-column: 2/4;
-}
-.item10 {
-    grid-row: 6/8;
-    grid-column: 1/3;
-}
-
-/*contactos*/
-
-#contactos {
-    font-family: 'Indie Flower', cursive;
-    font-size: 45px;
-    text-align: left;
-    color: #dc143c;
-    margin-left: 2rem;
-    margin-right: 2rem;
-}
-
-#contactosh3 {
-    font-family: 'Sue Ellen Francisco', cursive;
-    font-size: 3rem;
-    color: black;
-    text-align: center;
-    margin-top: 3rem;
-    
+body #contactos img {
+  margin: 1%;
 }
 body iframe {
-    border-radius: 5rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    border: 1px solid black !important;
+  border-radius: 5rem;
+  margin-top: 3rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  border: 1px solid black !important;
 }
 
-#contactos ul li {
-    list-style-type: none;
-    text-align: center;
-    
-}
-
-
-
-/*footer*/
-
-footer {
-    border-top: 0.2rem solid black;
-    border-bottom: 0.2rem solid black;
-    margin-bottom: 1%;
-    margin-top: 1%;
-    margin-left: 2%;
-    margin-right: 2%;
-    border-radius: 3%;
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.1),
-        rgba(0,0,0,0.1)
-    )
-    ,url(../Images/fondofooter.png);
-    background-repeat:repeat;
-    background-size: 100%;
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto;
-}
-
-footer ul li{
-    margin-top: 1%;
-    margin-bottom: 5%;
-}
-footer iframe {
-    grid-column: 2/3;
-    grid-row: 2/3;
-    margin-top: 20%;
-    margin-bottom: 1%;
-    margin-left: 0%;
-
-
-}
-
-footer a {
-    font-family: 'Righteous', cursive;
-    font-weight: bold;
-    text-decoration: none;
-    color: #dc143c;
-    
-}
-.ubi {
-    font-family: 'Righteous', cursive;
-    font-size: auto;
-    color: #dc143c;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin-top: 80%;
-    margin-left: 20%;
-    grid-column: 1/2;
-    grid-row: 2/3;
-
-}
-
-    
-.redes {
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: right;
-    margin-left: 20%;
-    margin-top: 20%;
-    margin-bottom: 5%;
-    list-style-type: none;
-    grid-column: 1/2;
-    grid-row: 1/2;
-
-}
-
-
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,18 @@
+section {
+    .presentación {
+        font-family: 'Righteous', cursive;
+        font-size: 1.5rem;
+        color: $color-principal;
+        margin: 1%;
+        border-bottom: 3px solid $color-principal;
+        border-top: 3px solid $color-principal;
+        display: flex;
+        align-items: start;
+        text-align: center;
+        flex-direction: column;
+        }
+    .peluquera {
+        display: flex;
+        justify-content: center;
+        }
+}

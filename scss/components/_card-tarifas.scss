@@ -1,0 +1,22 @@
+.cartas {
+
+    #tarifa1 {
+        float: left;
+        margin: 1%;
+        border: 3px solid black;
+  
+    }
+    #tarifa2 {
+        float: right;
+        margin-right: 0.5rem;
+        border: 3px solid black;
+        margin-top: 0.5rem;
+    }
+    #descripción-tarifas {
+        font-size: $fuente-2;
+        font-size: 2rem;
+        color: black;
+        text-align: center;
+    }
+
+}

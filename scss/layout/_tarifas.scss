@@ -1,0 +1,17 @@
+#tarifash3 {
+    @include titles;
+    text-align: center;
+    margin-left: 2rem;
+}
+#tarifa3 {
+    img {
+        margin-left: 0% !important;
+        margin-top: 1rem !important;
+        border: 3px solid black;
+    }
+    p {
+    font-family: $fuente-2;
+    font-size: 1.2rem;
+    text-align: center;
+    }
+}

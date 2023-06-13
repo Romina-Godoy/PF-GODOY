@@ -1,0 +1,15 @@
+#descripción-servicios {
+    .servicios {
+        @include titles;
+        text-align: center;
+    }
+    p {
+        font-family: 'Righteous', cursive;
+        font-size: 2rem;
+        text-align: center;
+
+    }
+    img {
+        margin-left: 2rem;
+    }
+}
