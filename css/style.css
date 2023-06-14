@@ -351,15 +351,16 @@ body #contactosh3 {
   font-weight: bold;
   text-align: center;
 }
-body #contactos ul li {
+body ul li {
   list-style-type: none;
   text-align: center;
   margin-top: 1.5rem;
 }
-body #contactos img {
+body img {
   margin: 1%;
 }
-body iframe {
+
+iframe {
   border-radius: 5rem;
   margin-top: 3rem;
   margin-left: 0.5rem;
