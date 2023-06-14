@@ -6,9 +6,15 @@ body {
         
     }
     #contactos {
+        ul li {
+            list-style-type: none;
+            text-align: center;
+            margin-top: 1.5rem;
+        }
         img {
             margin: 1%;
         }
+        
     }
     iframe {
         border-radius: 5rem;

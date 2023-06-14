@@ -3,11 +3,11 @@
        padding-bottom: 55%;
     }
     .encabezado h1 {
-        font-size: 5rem !important;
+        font-size: 4rem !important;
         margin-top: 1rem;
     }
     .encabezado h2 {
-        font-size: 4.5rem !important;
+        font-size: 3.5rem !important;
         margin-top: 1rem;
     }
     .navegador {
@@ -22,25 +22,27 @@
         margin-left: 3rem;
     }
     footer iframe {
-        width: 600px;
+        width: 500px;
+        height: 150px !important;
         margin-top: 100px !important;
        }
     .ubi {
         margin-top: 180px !important;
-        font-size: 40px;
+        font-size: 25px !important;
     }   
     footer {
         background-repeat: no-repeat !important;
-        height: 40rem !important;
+        height: 30rem !important;
     }
 
     footer ul li {
         list-style-image: url(../Images/huella-de-perro.png);
         list-style-position: square inside;
+        margin-left: 2rem !important;
         
     }
     footer ul li a {
-        font-size: 25px;
+        font-size: 20px;
     }
     #descripción-servicios {
         text-align: center;
@@ -61,5 +63,17 @@
         margin-left: 15rem !important;
        
     }
+    #contactos img {
+            margin-left: 18% !important;
+            margin-right: 18% !important;
+        }
+    #contactos ul li {
+        margin-left: 11rem !important;
+    }
+    #contactos iframe {
+        width: 700px;
+        margin: 30px;
+    }
+
 
 }

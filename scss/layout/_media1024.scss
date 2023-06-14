@@ -1,0 +1,25 @@
+@media only screen and (min-width: 1024px) {
+    #contactos img {
+        margin-left: 25% !important;
+    }
+    #contactos ul li {
+    margin-left: 16rem !important;
+    }
+    #contactos iframe {
+    width: 1000px;
+    margin: 10px;
+    }
+
+    footer iframe {
+        margin-top: 100px !important;
+       }
+    footer {
+        background-repeat: no-repeat !important;
+        height: 35rem !important;
+        h3 {
+            margin-top: 90px !important;
+        font-size: 30px !important;
+        }
+    }
+
+}

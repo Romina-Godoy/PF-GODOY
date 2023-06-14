@@ -19,12 +19,12 @@ footer {
     grid-template-rows: auto auto;
     h3 {
         font-family: 'Righteous', cursive;
-        font-size: auto;
+        font-size: 2rem;
         color: $color-principal;
         display: flex;
         justify-content: center;
         text-align: center;
-        margin-top: 80%;
+        margin-top: 75%;
         margin-left: 20%;
         grid-column: 1/2;
         grid-row: 2/3;

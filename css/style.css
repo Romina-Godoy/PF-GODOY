@@ -12,11 +12,11 @@
     padding-bottom: 55%;
   }
   .encabezado h1 {
-    font-size: 5rem !important;
+    font-size: 4rem !important;
     margin-top: 1rem;
   }
   .encabezado h2 {
-    font-size: 4.5rem !important;
+    font-size: 3.5rem !important;
     margin-top: 1rem;
   }
   .navegador {
@@ -31,23 +31,25 @@
     margin-left: 3rem;
   }
   footer iframe {
-    width: 600px;
+    width: 500px;
+    height: 150px !important;
     margin-top: 100px !important;
   }
   .ubi {
     margin-top: 180px !important;
-    font-size: 40px;
+    font-size: 25px !important;
   }
   footer {
     background-repeat: no-repeat !important;
-    height: 40rem !important;
+    height: 30rem !important;
   }
   footer ul li {
     list-style-image: url(../Images/huella-de-perro.png);
     list-style-position: square inside;
+    margin-left: 2rem !important;
   }
   footer ul li a {
-    font-size: 25px;
+    font-size: 20px;
   }
   #descripción-servicios {
     text-align: center;
@@ -66,6 +68,17 @@
   .cartas {
     margin-left: 15rem !important;
   }
+  #contactos img {
+    margin-left: 18% !important;
+    margin-right: 18% !important;
+  }
+  #contactos ul li {
+    margin-left: 11rem !important;
+  }
+  #contactos iframe {
+    width: 700px;
+    margin: 30px;
+  }
 }
 @media handheld, only screen and (max-width: 500px) {
   .peluquera {
@@ -77,6 +90,46 @@
   #contactos img {
     width: 20rem !important;
     margin-left: 1.5rem !important;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  #contactos img {
+    margin-left: 25% !important;
+  }
+  #contactos ul li {
+    margin-left: 16rem !important;
+  }
+  #contactos iframe {
+    width: 1000px;
+    margin: 10px;
+  }
+  footer iframe {
+    margin-top: 100px !important;
+  }
+  footer {
+    background-repeat: no-repeat !important;
+    height: 35rem !important;
+  }
+  footer h3 {
+    margin-top: 90px !important;
+    font-size: 30px !important;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  footer {
+    height: 45rem !important;
+  }
+  footer ul li a {
+    font-size: 40px !important;
+  }
+  footer h3 {
+    margin-top: 9rem !important;
+    font-size: 50px !important;
+  }
+  footer iframe {
+    margin-top: 120px !important;
+    width: 600px !important;
+    height: 200px !important;
   }
 }
 body {
@@ -93,11 +146,13 @@ header nav {
 header nav a {
   text-decoration: none;
   color: #dc143c;
+  font-size: 1.5rem;
   font-weight: bold;
   font-family: "Indie Flower", cursive;
 }
 header nav a:hover {
   color: #ca5e74;
+  font-size: 1.9rem;
 }
 header .encabezado {
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../Images/foto-portada.png);
@@ -157,12 +212,12 @@ footer {
 }
 footer h3 {
   font-family: "Righteous", cursive;
-  font-size: auto;
+  font-size: 2rem;
   color: #dc143c;
   display: flex;
   justify-content: center;
   text-align: center;
-  margin-top: 80%;
+  margin-top: 75%;
   margin-left: 20%;
   grid-column: 1/2;
   grid-row: 2/3;
@@ -295,6 +350,11 @@ body #contactosh3 {
   margin-top: 3rem;
   font-weight: bold;
   text-align: center;
+}
+body #contactos ul li {
+  list-style-type: none;
+  text-align: center;
+  margin-top: 1.5rem;
 }
 body #contactos img {
   margin: 1%;
